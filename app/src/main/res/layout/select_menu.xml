@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="                      "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Button
+            android:id="@+id/Margin_Gapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gapper"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_create_new_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New customer" />
+
+        <Button
+            android:id="@+id/btn_edit_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Customer" />
+
+        <Button
+            android:id="@+id/btn_place_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place an Order" />
+
+        <Button
+            android:id="@+id/btn_recopy_bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recopy a Bill" />
+
+        <Button
+            android:id="@+id/btn_vehicle_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View stock in Vehicle" />
+
+        <Button
+            android:id="@+id/btn_store_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Stock in Store" />
+
+        <Button
+            android:id="@+id/btn_complain_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complain Reporting" />
+
+        <Button
+            android:id="@+id/btn_get_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Return Items" />
+
+        <Button
+            android:id="@+id/btn_set_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Password" />
+        <Button
+            android:id="@+id/btn_set_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Payment" />
+
+        <Button
+            android:id="@+id/btn_sync_data_to_pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sync Data To PC" />
+
+
+    </LinearLayout>
+</ScrollView>
